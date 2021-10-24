@@ -1,0 +1,72 @@
+{
+  "_args": [
+    [
+      "http-form-urlencoded@1.0.23",
+      "/storage/emulated/0/bot"
+    ]
+  ],
+  "_from": "http-form-urlencoded@1.0.23",
+  "_id": "http-form-urlencoded@1.0.23",
+  "_inBundle": false,
+  "_integrity": "sha512-V6pth21SD/qxL1XiTZphikw5H8+2upojzs7XnxS4uZDxGxGRKOtqHCoyhiavP2lIXTjub0v1MdhT5OPuiypLnA==",
+  "_location": "/http-form-urlencoded",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "http-form-urlencoded@1.0.23",
+    "name": "http-form-urlencoded",
+    "escapedName": "http-form-urlencoded",
+    "rawSpec": "1.0.23",
+    "saveSpec": null,
+    "fetchSpec": "1.0.23"
+  },
+  "_requiredBy": [
+    "/restful-decorator"
+  ],
+  "_resolved": "https://registry.npmjs.org/http-form-urlencoded/-/http-form-urlencoded-1.0.23.tgz",
+  "_spec": "1.0.23",
+  "_where": "/storage/emulated/0/bot",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/bluelovers/ws-rest/issues"
+  },
+  "dependencies": {
+    "ts-type": "^1.2.39",
+    "tslib": "^2.3.0"
+  },
+  "description": "a x-www-form-urlencoded & URLSearchParams class",
+  "gitHead": "4479e4f1f958291a6d4ed655d051e8ef30315aa7",
+  "homepage": "https://github.com/bluelovers/ws-rest#readme",
+  "keywords": [
+    "URLSearchParams",
+    "form",
+    "form-urlencoded",
+    "params",
+    "query",
+    "querystring",
+    "search",
+    "url",
+    "urlencoded",
+    "urlsearchparams",
+    "w3c",
+    "whatwg",
+    "x-www-form-urlencoded"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "http-form-urlencoded",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluelovers/ws-rest.git"
+  },
+  "scripts": {
+    "coverage": "npx nyc npm run test",
+    "lint": "npx eslint **/*.ts",
+    "ncu": "npx yarn-tool ncu -u",
+    "preversion": "yarn run test",
+    "sort-package-json": "npx yarn-tool sort",
+    "test": "ts-node ./test/demo"
+  },
+  "version": "1.0.23"
+}

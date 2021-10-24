@@ -1,0 +1,1 @@
+{"version":3,"file":"processPlatform.js","sourceRoot":"","sources":["processPlatform.ts"],"names":[],"mappings":";;;AACA,SAAgB,eAAe;IAE9B,IAAI,OAAO,OAAO,KAAK,WAAW,EAClC;QACC,OAAO,OAAO,CAAC,QAAQ,CAAA;KACvB;AACF,CAAC;AAND,0CAMC","sourcesContent":["\nexport function processPlatform()\n{\n\tif (typeof process !== 'undefined')\n\t{\n\t\treturn process.platform\n\t}\n}\n"]}

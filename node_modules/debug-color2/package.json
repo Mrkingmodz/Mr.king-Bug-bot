@@ -1,0 +1,117 @@
+{
+  "_args": [
+    [
+      "debug-color2@1.2.7",
+      "/storage/emulated/0/bot"
+    ]
+  ],
+  "_from": "debug-color2@1.2.7",
+  "_id": "debug-color2@1.2.7",
+  "_inBundle": false,
+  "_integrity": "sha512-vGh6QYbQiKdlUHESCQiniCSrRI/LByfFn0yDMwNsaeEF+bDtTRSE5iKNXz3mrb1wFQb/YU4aADqqQ8wToY2A7g==",
+  "_location": "/debug-color2",
+  "_phantomChildren": {
+    "ansi-styles": "3.2.1",
+    "supports-color": "5.5.0"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "debug-color2@1.2.7",
+    "name": "debug-color2",
+    "escapedName": "debug-color2",
+    "rawSpec": "1.2.7",
+    "saveSpec": null,
+    "fetchSpec": "1.2.7"
+  },
+  "_requiredBy": [
+    "/restful-decorator"
+  ],
+  "_resolved": "https://registry.npmjs.org/debug-color2/-/debug-color2-1.2.7.tgz",
+  "_spec": "1.2.7",
+  "_types": "debug-color2.d.ts",
+  "_where": "/storage/emulated/0/bot",
+  "author": {
+    "name": "bluelovers"
+  },
+  "bugs": {
+    "url": "https://github.com/bluelovers/debug-color/issues"
+  },
+  "dependencies": {
+    "@types/luxon": "*",
+    "chalk": "< 3 && >= 2",
+    "env-bool": "^1.0.3",
+    "luxon": "^1.28.0",
+    "ts-type": "^1.2.35",
+    "tslib": "^2.3.0"
+  },
+  "description": "colorize console log, this module can work with require('debug')",
+  "devDependencies": {
+    "@bluelovers/tsconfig": "^1.0.24",
+    "@types/debug": "^4.1.6",
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.3.0",
+    "debug": "^4.3.2",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.3"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "homepage": "https://github.com/bluelovers/debug-color#readme",
+  "keywords": [
+    "256",
+    "ansi",
+    "cli",
+    "color",
+    "colors",
+    "colour",
+    "command-line",
+    "console",
+    "debug",
+    "debugger",
+    "formatting",
+    "log",
+    "logging",
+    "rgb",
+    "shell",
+    "str",
+    "string",
+    "style",
+    "styles",
+    "terminal",
+    "text",
+    "tty",
+    "xterm"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "debug-color2",
+  "peerDependencies": {
+    "debug": "^4.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluelovers/debug-color.git"
+  },
+  "scripts": {
+    "ncu": "yarn-tool ncu -u",
+    "npm:publish": "yarn run preversion && npm publish",
+    "npm:publish:bump": "yarn run preversion && yarn-tool version && npm publish",
+    "postpublish": "yarn run postpublish:changelog && yarn run postpublish:git:commit && yarn run postpublish:git:tag && yarn run postpublish:git:push",
+    "postpublish:changelog": "ynpx --quiet @yarn-tool/changelog && git add ./CHANGELOG.md",
+    "postpublish:git:commit": "git commit -m \"chore(release): publish\" . & echo postpublish:git:commit",
+    "postpublish:git:push": "git push --follow-tags",
+    "postpublish:git:tag": "ynpx --quiet @yarn-tool/tag",
+    "prepublish:lockfile": "npx sync-lockfile .",
+    "preversion": "yarn run test",
+    "sort-package-json": "yarn-tool sort",
+    "test": "yarn run test:demo && yarn run test:jest",
+    "test:demo": "ts-node ./test/demo.ts",
+    "test:jest": "jest",
+    "tsc:default": "tsc -p tsconfig.json",
+    "tsc:esm": "tsc -p tsconfig.esm.json"
+  },
+  "version": "1.2.7"
+}

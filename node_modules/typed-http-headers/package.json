@@ -1,0 +1,56 @@
+{
+  "_args": [
+    [
+      "typed-http-headers@1.0.7",
+      "/storage/emulated/0/bot"
+    ]
+  ],
+  "_from": "typed-http-headers@1.0.7",
+  "_id": "typed-http-headers@1.0.7",
+  "_inBundle": false,
+  "_integrity": "sha512-gPEYHfEDm8knJokvLK7dKbxARvrjpFHfI/7ezDAY3Y2KafvvpOBX3e0eUQc0MhvItcntvTpq+8mJnpxMzXsIzw==",
+  "_location": "/typed-http-headers",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "typed-http-headers@1.0.7",
+    "name": "typed-http-headers",
+    "escapedName": "typed-http-headers",
+    "rawSpec": "1.0.7",
+    "saveSpec": null,
+    "fetchSpec": "1.0.7"
+  },
+  "_requiredBy": [
+    "/@bluelovers/axios-extend",
+    "/axios-cache-adapter-util",
+    "/restful-decorator"
+  ],
+  "_resolved": "https://registry.npmjs.org/typed-http-headers/-/typed-http-headers-1.0.7.tgz",
+  "_spec": "1.0.7",
+  "_where": "/storage/emulated/0/bot",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/bluelovers/ws-ts-type/issues"
+  },
+  "description": "typed http headers",
+  "gitHead": "2b483bcc6bab2a5fbe0b0cfe2a27f736bf5db793",
+  "homepage": "https://github.com/bluelovers/ws-ts-type#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "typed-http-headers",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluelovers/ws-ts-type.git"
+  },
+  "scripts": {
+    "coverage": "npx nyc npm run test",
+    "lint": "npx eslint **/*.ts",
+    "ncu": "npx yarn-tool ncu -u",
+    "postpublish_": "git commit -m \"publish new version\" .",
+    "prepublishOnly": "npm run ncu && npm run sort-package-json",
+    "sort-package-json": "npx yarn-tool sort",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.7"
+}

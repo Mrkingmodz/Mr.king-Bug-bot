@@ -1,0 +1,1 @@
+{"version":3,"file":"symbol.js","sourceRoot":"","sources":["symbol.ts"],"names":[],"mappings":";AAAA;;GAEG;;;AAEH;;GAEG;AACU,QAAA,OAAO,GAAG,MAAM,CAAC,MAAM,CAAC,CAAC","sourcesContent":["/**\n * Created by user on 2019/7/29.\n */\n\n/**\n * 隱藏資料 用來處理特殊需求\n */\nexport const SymSelf = Symbol('self');\n"]}

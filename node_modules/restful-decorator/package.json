@@ -1,0 +1,70 @@
+{
+  "_args": [
+    [
+      "restful-decorator@1.0.60",
+      "/storage/emulated/0/bot"
+    ]
+  ],
+  "_from": "restful-decorator@1.0.60",
+  "_id": "restful-decorator@1.0.60",
+  "_inBundle": false,
+  "_integrity": "sha512-OW96Z+eJbMbwlnZ1ddOu04zXg7tv7NBxm9A+Lm+2dhVYVtOOlXeoqfdutlnBSAINz9jD7QXmQg+hp7FZdnsFzg==",
+  "_location": "/restful-decorator",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "restful-decorator@1.0.60",
+    "name": "restful-decorator",
+    "escapedName": "restful-decorator",
+    "rawSpec": "1.0.60",
+    "saveSpec": null,
+    "fetchSpec": "1.0.60"
+  },
+  "_requiredBy": [
+    "/axios-cache-adapter-util",
+    "/imgbb"
+  ],
+  "_resolved": "https://registry.npmjs.org/restful-decorator/-/restful-decorator-1.0.60.tgz",
+  "_spec": "1.0.60",
+  "_where": "/storage/emulated/0/bot",
+  "author": "",
+  "dependencies": {
+    "@bluelovers/axios-extend": "^1.0.45",
+    "axios": "< 0.19 >= 0.18",
+    "axios-cache-adapter": "^2.7.3",
+    "axios-cookiejar-support": "^1.0.1",
+    "bluebird": "^3.7.2",
+    "debug-color2": "^1.2.7",
+    "http-form-urlencoded": "^1.0.23",
+    "lazy-cookies": "^1.0.37",
+    "lazy-url": "^1.0.12",
+    "lodash": "^4.17.21",
+    "lodash-decorators": "^6.0.1",
+    "moment": "^2.29.1",
+    "reflect-metadata": "^0.1.13",
+    "reflect-metadata-util": "^1.0.13",
+    "router-uri-convert": "^1.0.25",
+    "ts-enum-util": "^4.0.2",
+    "ts-type": "^1.2.39",
+    "tslib": "^2.3.0",
+    "typed-http-headers": "^1.0.7"
+  },
+  "description": "",
+  "gitHead": "f50e966dbb659a5144047950d6d4006ea5b34943",
+  "license": "ISC",
+  "main": "./lib/index.js",
+  "name": "restful-decorator",
+  "peerDependencies": {
+    "tough-cookie": "*"
+  },
+  "scripts": {
+    "coverage": "npx nyc npm run test",
+    "lint": "npx eslint lib/**/*.ts",
+    "ncu": "npx yarn-tool ncu -u",
+    "preversion": "yarn run test",
+    "sort-package-json": "npx yarn-tool sort",
+    "test": "npx mocha --debug --require ts-node/register !(node_modules)/**/*.{test,spec}.{ts,tsx}"
+  },
+  "version": "1.0.60"
+}

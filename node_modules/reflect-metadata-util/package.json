@@ -1,0 +1,60 @@
+{
+  "_args": [
+    [
+      "reflect-metadata-util@1.0.13",
+      "/storage/emulated/0/bot"
+    ]
+  ],
+  "_from": "reflect-metadata-util@1.0.13",
+  "_id": "reflect-metadata-util@1.0.13",
+  "_inBundle": false,
+  "_integrity": "sha512-RLssMHfwGgR2rH5cQ1zYgPkwjYnjaAPELWf4AIb+WITSC9uZcF/sCp+gskYm1EcE2+yw0U6xoQOU2g3V8EFkVQ==",
+  "_location": "/reflect-metadata-util",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "reflect-metadata-util@1.0.13",
+    "name": "reflect-metadata-util",
+    "escapedName": "reflect-metadata-util",
+    "rawSpec": "1.0.13",
+    "saveSpec": null,
+    "fetchSpec": "1.0.13"
+  },
+  "_requiredBy": [
+    "/@bluelovers/axios-extend",
+    "/restful-decorator"
+  ],
+  "_resolved": "https://registry.npmjs.org/reflect-metadata-util/-/reflect-metadata-util-1.0.13.tgz",
+  "_spec": "1.0.13",
+  "_where": "/storage/emulated/0/bot",
+  "author": "",
+  "dependencies": {
+    "reflect-metadata": "*",
+    "tslib": "^2.3.0"
+  },
+  "description": "reflect-metadata util",
+  "gitHead": "4479e4f1f958291a6d4ed655d051e8ef30315aa7",
+  "keywords": [
+    "decorator",
+    "javascript",
+    "metadata",
+    "reflect",
+    "util"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "reflect-metadata-util",
+  "peerDependencies": {
+    "reflect-metadata": "*"
+  },
+  "scripts": {
+    "coverage": "npx nyc npm run test",
+    "lint": "npx eslint **/*.ts",
+    "ncu": "npx yarn-tool ncu -u",
+    "preversion": "yarn run test",
+    "sort-package-json": "npx yarn-tool sort",
+    "test": "ts-node ./test/demo"
+  },
+  "version": "1.0.13"
+}

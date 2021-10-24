@@ -1,0 +1,83 @@
+{
+  "_args": [
+    [
+      "lru-cache2@6.0.7",
+      "/storage/emulated/0/bot"
+    ]
+  ],
+  "_from": "lru-cache2@6.0.7",
+  "_id": "lru-cache2@6.0.7",
+  "_inBundle": false,
+  "_integrity": "sha512-2H9bOCCTjuRvstt4G1T7M2cL4rM14KGm7A4nkyE6C8fDiNDhafj2nQTfWygHz1Uvzc8DlGlai0SnWGjONI9QAA==",
+  "_location": "/lru-cache2",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "lru-cache2@6.0.7",
+    "name": "lru-cache2",
+    "escapedName": "lru-cache2",
+    "rawSpec": "6.0.7",
+    "saveSpec": null,
+    "fetchSpec": "6.0.7"
+  },
+  "_requiredBy": [
+    "/@bluelovers/axios-extend"
+  ],
+  "_resolved": "https://registry.npmjs.org/lru-cache2/-/lru-cache2-6.0.7.tgz",
+  "_spec": "6.0.7",
+  "_where": "/storage/emulated/0/bot",
+  "author": {
+    "name": "Isaac Z. Schlueter",
+    "email": "i@izs.me"
+  },
+  "bugs": {
+    "url": "https://github.com/bluelovers/ws-lru/issues"
+  },
+  "dependencies": {
+    "@types/yallist": "*",
+    "tslib": "^2.3.0",
+    "yallist": "^4"
+  },
+  "description": "A cache object that deletes the least-recently-used items.",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "gitHead": "02f9550a82e2adc83ab202167fed5f74754ac526",
+  "homepage": "https://github.com/bluelovers/ws-lru/tree/master/packages/lru-cache#readme",
+  "keywords": [
+    "mru",
+    "lru",
+    "cache"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "lru-cache2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluelovers/ws-lru.git"
+  },
+  "scripts": {
+    "ncu": "yarn-tool ncu -u",
+    "npm:publish": "npm publish",
+    "npm:publish:lerna": "lerna publish --yes --bump patch",
+    "postpublish:changelog": "ynpx --quiet @yarn-tool/changelog && git add ./CHANGELOG.md",
+    "postpublish:git:commit": "git commit -m \"chore(release): publish\" . & echo postpublish:git:commit",
+    "postpublish:git:push": "git push --follow-tags",
+    "postpublish:git:tag": "ynpx --quiet @yarn-tool/tag",
+    "postpublish_": "yarn run postpublish:changelog && yarn run postpublish:git:commit && yarn run postpublish:git:tag && yarn run postpublish:git:push",
+    "prepublishOnly": "echo prepublishOnly",
+    "prepublishOnly:check-bin": "ynpx --quiet @yarn-tool/check-pkg-bin",
+    "prepublishOnly:update": "yarn run ncu && yarn run sort-package-json",
+    "prepublishOnly_": "yarn run test",
+    "preversion": "yarn test",
+    "snap": "jest -u",
+    "sort-package-json": "yarn-tool sort",
+    "test": "jest"
+  },
+  "version": "6.0.7"
+}

@@ -1,0 +1,75 @@
+{
+  "_args": [
+    [
+      "symbol.inspect@1.0.1",
+      "/storage/emulated/0/bot"
+    ]
+  ],
+  "_from": "symbol.inspect@1.0.1",
+  "_id": "symbol.inspect@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-YQSL4duoHmLhsTD1Pw8RW6TZ5MaTX5rXJnqacJottr2P2LZBF/Yvrc3ku4NUpMOm8aM0KOCqM+UAkMA5HWQCzQ==",
+  "_location": "/symbol.inspect",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "symbol.inspect@1.0.1",
+    "name": "symbol.inspect",
+    "escapedName": "symbol.inspect",
+    "rawSpec": "1.0.1",
+    "saveSpec": null,
+    "fetchSpec": "1.0.1"
+  },
+  "_requiredBy": [
+    "/lazy-url"
+  ],
+  "_resolved": "https://registry.npmjs.org/symbol.inspect/-/symbol.inspect-1.0.1.tgz",
+  "_spec": "1.0.1",
+  "_where": "/storage/emulated/0/bot",
+  "author": {
+    "name": "bluelovers"
+  },
+  "bugs": {
+    "url": "https://github.com/bluelovers/symbol.inspect/issues"
+  },
+  "dependencies": {},
+  "description": "<symbol> that can be used to declare custom inspect functions.",
+  "devDependencies": {
+    "@bluelovers/tsconfig": "^1.0.19",
+    "@types/node": "^13.9.3"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "homepage": "https://github.com/bluelovers/symbol.inspect#readme",
+  "keywords": [
+    "nodejs",
+    "inspect",
+    "util",
+    "custom",
+    "symbol"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "symbol.inspect",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluelovers/symbol.inspect.git"
+  },
+  "scripts": {
+    "coverage": "npx nyc yarn run test",
+    "lint": "npx eslint **/*.ts",
+    "ncu": "npx yarn-tool ncu -u",
+    "npm:publish": "npm publish",
+    "postpublish": "git commit -m \"chore(release): publish\" .",
+    "prepublish:lockfile": "npx sync-lockfile .",
+    "prepublishOnly": "yarn run ncu && yarn run sort-package-json && yarn run test",
+    "sort-package-json": "npx yarn-tool sort",
+    "test": "echo \"Error: no test specified\"",
+    "test:mocha": "npx mocha --require ts-node/register \"!(node_modules)/**/*.{test,spec}.{ts,tsx}\"",
+    "tsc:default": "tsc -p tsconfig.json",
+    "tsc:esm": "tsc -p tsconfig.esm.json"
+  },
+  "version": "1.0.1"
+}

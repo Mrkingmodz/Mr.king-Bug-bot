@@ -1,0 +1,1 @@
+{"version":3,"file":"rfc6570.js","sourceRoot":"","sources":["rfc6570.ts"],"names":[],"mappings":";AAAA;;GAEG;;AAEH,kBAAe,OAAqC,CAAC","sourcesContent":["/**\n * Created by user on 2019/6/9.\n */\n\nexport default exports as typeof import('./rfc6570');\n"]}

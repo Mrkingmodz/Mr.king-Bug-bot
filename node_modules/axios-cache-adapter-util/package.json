@@ -1,0 +1,87 @@
+{
+  "_args": [
+    [
+      "axios-cache-adapter-util@1.0.56",
+      "/storage/emulated/0/bot"
+    ]
+  ],
+  "_from": "axios-cache-adapter-util@1.0.56",
+  "_id": "axios-cache-adapter-util@1.0.56",
+  "_inBundle": false,
+  "_integrity": "sha512-1IT166bgV0h3PiBdjE0pvRwa3TM1M296gyb7n3OVi85prCTbDiUrnI9zyoHkgRe2kA7Q7+UBwrtS0Nj4fwydjg==",
+  "_location": "/axios-cache-adapter-util",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "axios-cache-adapter-util@1.0.56",
+    "name": "axios-cache-adapter-util",
+    "escapedName": "axios-cache-adapter-util",
+    "rawSpec": "1.0.56",
+    "saveSpec": null,
+    "fetchSpec": "1.0.56"
+  },
+  "_requiredBy": [
+    "/@bluelovers/axios-extend"
+  ],
+  "_resolved": "https://registry.npmjs.org/axios-cache-adapter-util/-/axios-cache-adapter-util-1.0.56.tgz",
+  "_spec": "1.0.56",
+  "_where": "/storage/emulated/0/bot",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/bluelovers/ws-rest/issues"
+  },
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "free-gc": "^1.0.6",
+    "fs-extra": "^10.0.0",
+    "lazy-url": "^1.0.12",
+    "md5": "^2.3.0",
+    "restful-decorator": "^1.0.60",
+    "ts-type": "^1.2.39",
+    "tslib": "^2.3.0",
+    "typed-http-headers": "^1.0.7"
+  },
+  "description": "axios-cache-adapter export/import json for save/load file",
+  "devDependencies": {
+    "@types/md5": "^2.3.1",
+    "fs-extra": "^10.0.0",
+    "lru-cache2": "^6.0.7"
+  },
+  "gitHead": "f50e966dbb659a5144047950d6d4006ea5b34943",
+  "homepage": "https://github.com/bluelovers/ws-rest#readme",
+  "keywords": [
+    "axios",
+    "axios-cache-adapter",
+    "cache",
+    "export",
+    "fs",
+    "import",
+    "json",
+    "request",
+    "xhr"
+  ],
+  "license": "ISC",
+  "main": "./lib/index",
+  "name": "axios-cache-adapter-util",
+  "peerDependencies": {
+    "axios": "< 0.19 >= 0.18",
+    "axios-cache-adapter": "^2.7.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluelovers/ws-rest.git"
+  },
+  "scripts": {
+    "coverage": "npx nyc npm run test",
+    "lint": "npx eslint **/*.ts",
+    "ncu": "npx yarn-tool ncu -u",
+    "postpublish": "echo postpublish",
+    "preversion": "yarn run test",
+    "sort-package-json": "npx yarn-tool sort",
+    "test": "ts-node ./test/demo"
+  },
+  "types": "./lib/index.d.ts",
+  "typings": "./lib/index.d.ts",
+  "version": "1.0.56"
+}

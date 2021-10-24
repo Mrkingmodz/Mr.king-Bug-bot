@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["index.ts"],"names":[],"mappings":";;;;AAAA,qDAAsB;AACtB,+BAAiC;AAExB,yFAFA,cAAQ,OAEA;AAEjB,kBAAe,cAAQ,CAAA","sourcesContent":["export * from './lib';\nimport { LRUCache } from './lib';\n\nexport { LRUCache }\n\nexport default LRUCache\n"]}

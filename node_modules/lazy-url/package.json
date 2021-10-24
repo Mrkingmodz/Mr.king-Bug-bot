@@ -1,0 +1,103 @@
+{
+  "_args": [
+    [
+      "lazy-url@1.0.12",
+      "/storage/emulated/0/bot"
+    ]
+  ],
+  "_from": "lazy-url@1.0.12",
+  "_id": "lazy-url@1.0.12",
+  "_inBundle": false,
+  "_integrity": "sha512-xuIVhBZeS248rjXbxVXhBBhbAAxQZXR2R0E78veQjFHv8gX2TaTJZ7RqywoaT9IwFsvfjDlDbDLXAvT+aTOXgg==",
+  "_location": "/lazy-url",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "lazy-url@1.0.12",
+    "name": "lazy-url",
+    "escapedName": "lazy-url",
+    "rawSpec": "1.0.12",
+    "saveSpec": null,
+    "fetchSpec": "1.0.12"
+  },
+  "_requiredBy": [
+    "/axios-cache-adapter-util",
+    "/restful-decorator"
+  ],
+  "_resolved": "https://registry.npmjs.org/lazy-url/-/lazy-url-1.0.12.tgz",
+  "_spec": "1.0.12",
+  "_where": "/storage/emulated/0/bot",
+  "author": {
+    "name": "bluelovers"
+  },
+  "bugs": {
+    "url": "https://github.com/bluelovers/lazy-url/issues"
+  },
+  "dependencies": {
+    "clean-stack": ">=3 <4",
+    "err-code": "^3.0.1",
+    "indent-string": ">=4.0.0 <5",
+    "symbol.inspect": "^1.0.1",
+    "ts-type-predicates": "^1.0.3",
+    "tslib": "^2.3.0",
+    "url-parse": "^1.5.1"
+  },
+  "description": "a more easy use URL",
+  "devDependencies": {
+    "@bluelovers/tsconfig": "^1.0.25",
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.3.3",
+    "@types/url-parse": "^1.4.3",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.3"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "homepage": "https://github.com/bluelovers/lazy-url#readme",
+  "keywords": [
+    "URL",
+    "WHATWG",
+    "address",
+    "canonical",
+    "normalisation",
+    "normalization",
+    "normalize",
+    "parse",
+    "parser",
+    "query",
+    "querystring",
+    "simplify",
+    "string",
+    "stringify",
+    "strip",
+    "trim",
+    "uri",
+    "url"
+  ],
+  "license": "ISC",
+  "main": "lib/index.js",
+  "name": "lazy-url",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluelovers/lazy-url.git"
+  },
+  "scripts": {
+    "ncu": "yarn-tool ncu -u",
+    "npm:publish": "yarn run preversion && npm publish",
+    "npm:publish:bump": "yarn run preversion && yarn-tool version && npm publish",
+    "postpublish": "yarn run postpublish:changelog && yarn run postpublish:git:commit && yarn run postpublish:git:tag && yarn run postpublish:git:push",
+    "postpublish:changelog": "ynpx --quiet @yarn-tool/changelog && git add ./CHANGELOG.md",
+    "postpublish:git:commit": "git commit -m \"chore(release): publish\" . & echo postpublish:git:commit",
+    "postpublish:git:push": "git push --follow-tags",
+    "postpublish:git:tag": "ynpx --quiet @yarn-tool/tag",
+    "preversion": "yarn test",
+    "sort-package-json": "yarn-tool sort",
+    "test": "jest"
+  },
+  "types": "lib/index.d.ts",
+  "typings": "lib/index.d.ts",
+  "version": "1.0.12"
+}

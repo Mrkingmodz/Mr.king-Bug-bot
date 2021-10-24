@@ -1,0 +1,1 @@
+{"version":3,"file":"_logFormat.js","sourceRoot":"","sources":["_logFormat.ts"],"names":[],"mappings":";;;AAAA,6BAA4C;AAAnC,kGAAA,MAAM,OAAc","sourcesContent":["export { format as _logFormat } from 'util';\n"]}

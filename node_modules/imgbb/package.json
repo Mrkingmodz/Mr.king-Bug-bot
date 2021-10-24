@@ -1,0 +1,67 @@
+{
+  "_args": [
+    [
+      "imgbb@1.0.47",
+      "/storage/emulated/0/bot"
+    ]
+  ],
+  "_from": "imgbb@1.0.47",
+  "_id": "imgbb@1.0.47",
+  "_inBundle": false,
+  "_integrity": "sha512-5s+V/2kLu3JD+mDSf9EaoKb4Edbn6DovoFUkKsnEhWN9yRG+9gBfEZ1bh8aMUVpKwb2PsarCVlklvSOLqIpzHA==",
+  "_location": "/imgbb",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "imgbb@1.0.47",
+    "name": "imgbb",
+    "escapedName": "imgbb",
+    "rawSpec": "1.0.47",
+    "saveSpec": null,
+    "fetchSpec": "1.0.47"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/imgbb/-/imgbb-1.0.47.tgz",
+  "_spec": "1.0.47",
+  "_where": "/storage/emulated/0/bot",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/bluelovers/ws-rest/issues"
+  },
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "restful-decorator": "^1.0.60",
+    "ts-type": "^1.2.39",
+    "tslib": "^2.3.0"
+  },
+  "description": "Imgbb's API v1 allows to upload pictures.",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "gitHead": "f50e966dbb659a5144047950d6d4006ea5b34943",
+  "homepage": "https://github.com/bluelovers/ws-rest#readme",
+  "license": "ISC",
+  "main": "lib/index",
+  "name": "imgbb",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluelovers/ws-rest.git"
+  },
+  "scripts": {
+    "coverage": "npx nyc npm run test",
+    "lint": "npx eslint **/*.ts",
+    "ncu": "npx yarn-tool ncu -u",
+    "npm:publish": "npm publish",
+    "postpublish": "echo postpublish",
+    "sort-package-json": "npx yarn-tool sort",
+    "test": "echo \"Error: no test specified\"",
+    "tsc:default": "tsc -p tsconfig.json",
+    "tsc:esm": "tsc -p tsconfig.esm.json"
+  },
+  "types": "lib/index.d.ts",
+  "version": "1.0.47"
+}

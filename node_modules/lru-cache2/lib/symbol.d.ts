@@ -1,0 +1,10 @@
+export declare const MAX: unique symbol;
+export declare const LENGTH: unique symbol;
+export declare const LENGTH_CALCULATOR: unique symbol;
+export declare const ALLOW_STALE: unique symbol;
+export declare const MAX_AGE: unique symbol;
+export declare const DISPOSE: unique symbol;
+export declare const NO_DISPOSE_ON_SET: unique symbol;
+export declare const LRU_LIST: unique symbol;
+export declare const CACHE: unique symbol;
+export declare const UPDATE_AGE_ON_GET: unique symbol;

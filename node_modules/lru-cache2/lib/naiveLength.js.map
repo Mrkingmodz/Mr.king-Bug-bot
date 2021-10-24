@@ -1,0 +1,1 @@
+{"version":3,"file":"naiveLength.js","sourceRoot":"","sources":["naiveLength.ts"],"names":[],"mappings":";;;AAAO,MAAM,WAAW,GAAG,GAAG,EAAE,CAAC,CAAC,CAAA;AAArB,QAAA,WAAW,eAAU","sourcesContent":["export const naiveLength = () => 1\n"]}

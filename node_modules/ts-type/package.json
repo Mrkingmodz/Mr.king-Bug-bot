@@ -1,0 +1,102 @@
+{
+  "_args": [
+    [
+      "ts-type@1.2.39",
+      "/storage/emulated/0/bot"
+    ]
+  ],
+  "_from": "ts-type@1.2.39",
+  "_id": "ts-type@1.2.39",
+  "_inBundle": false,
+  "_integrity": "sha512-5HEKeeFAcEGaRw0GMQSp2T0vFl53CPadNB3QfUN5Drhw8Ov/7JWGbcOCw2ElWrl6bwdsAUSMqkzMMTRZi7eTiQ==",
+  "_location": "/ts-type",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "ts-type@1.2.39",
+    "name": "ts-type",
+    "escapedName": "ts-type",
+    "rawSpec": "1.2.39",
+    "saveSpec": null,
+    "fetchSpec": "1.2.39"
+  },
+  "_requiredBy": [
+    "/@bluelovers/axios-extend",
+    "/axios-cache-adapter-util",
+    "/debug-color2",
+    "/http-form-urlencoded",
+    "/imgbb",
+    "/lazy-cookies",
+    "/restful-decorator"
+  ],
+  "_resolved": "https://registry.npmjs.org/ts-type/-/ts-type-1.2.39.tgz",
+  "_spec": "1.2.39",
+  "_where": "/storage/emulated/0/bot",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/bluelovers/ws-ts-type/issues"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0",
+    "typedarray-dts": "^1.0.0"
+  },
+  "description": "add some typescript type and re-export some build-in typescript type",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "gitHead": "a9afeb2513c2967c1f6f2c56260b5158aafe164a",
+  "homepage": "https://github.com/bluelovers/ws-ts-type/tree/master/packages/ts-type#readme",
+  "keywords": [
+    ".d.ts",
+    "@types",
+    "declaration",
+    "dev",
+    "develop",
+    "development",
+    "environment",
+    "ide",
+    "interface",
+    "node",
+    "playground",
+    "runtime",
+    "ts",
+    "type",
+    "type-level",
+    "typelevel",
+    "types",
+    "typescript",
+    "typing",
+    "typings",
+    "type-helprt",
+    "toolbox",
+    "toolbelt"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "ts-type",
+  "peerDependencies": {
+    "@types/bluebird": "*",
+    "@types/node": "*",
+    "ts-toolbelt": "^8.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluelovers/ws-ts-type.git"
+  },
+  "scripts": {
+    "build": "yarn run build-lib-toc",
+    "build-lib-toc": "npx ts-node ./test/script/toc && yarn run build:toc",
+    "build:toc": "tsc -p ./ --isolatedModules --noStrictGenericChecks --skipLibCheck & echo build:toc",
+    "ncu": "npx yarn-tool ncu -u",
+    "postpublish:git:commit": "git commit -m \"build(release): publish\" ./lib/index.d.ts & echo postpublish:git:commit",
+    "prepublishOnly": "echo prepublishOnly",
+    "pretest": "yarn run build",
+    "preversion": "yarn run test && yarn run postpublish:git:commit",
+    "sort-package-json": "npx yarn-tool sort",
+    "test": "yarn run ts:check",
+    "ts:check": "tsc --noEmit -p tsconfig.check.json"
+  },
+  "version": "1.2.39"
+}

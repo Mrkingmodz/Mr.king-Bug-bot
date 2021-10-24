@@ -1,0 +1,68 @@
+{
+  "_args": [
+    [
+      "router-uri-convert@1.0.25",
+      "/storage/emulated/0/bot"
+    ]
+  ],
+  "_from": "router-uri-convert@1.0.25",
+  "_id": "router-uri-convert@1.0.25",
+  "_inBundle": false,
+  "_integrity": "sha512-nRfn0g2v5q/M6UFUOVjm4zWhAwK1TYqdIsFz6mpdYqcmXWTHvqOloBOO/VKnE9HCd5mM/wC98nhAXtuO2uL1Qw==",
+  "_location": "/router-uri-convert",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "router-uri-convert@1.0.25",
+    "name": "router-uri-convert",
+    "escapedName": "router-uri-convert",
+    "rawSpec": "1.0.25",
+    "saveSpec": null,
+    "fetchSpec": "1.0.25"
+  },
+  "_requiredBy": [
+    "/restful-decorator"
+  ],
+  "_resolved": "https://registry.npmjs.org/router-uri-convert/-/router-uri-convert-1.0.25.tgz",
+  "_spec": "1.0.25",
+  "_where": "/storage/emulated/0/bot",
+  "author": "",
+  "dependencies": {
+    "execall2": "^2.0.11",
+    "tslib": "^2.3.0",
+    "uri-template-lite": "^20.5.0"
+  },
+  "description": "convert uri-template replace :varname with {+varname} to make it RFC 6570 compatible",
+  "devDependencies": {
+    "url-template": "^2.0.8"
+  },
+  "gitHead": "4479e4f1f958291a6d4ed655d051e8ef30315aa7",
+  "keywords": [
+    "endpoint",
+    "express",
+    "litejs",
+    "rfc 6570",
+    "rfc6570",
+    "router",
+    "template",
+    "uri",
+    "uri template",
+    "uri-template",
+    "url",
+    "url template",
+    "url-template"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "router-uri-convert",
+  "scripts": {
+    "coverage": "npx nyc npm run test",
+    "lint": "npx eslint **/*.ts",
+    "ncu": "npx yarn-tool ncu -u",
+    "preversion": "yarn run test",
+    "sort-package-json": "npx yarn-tool sort",
+    "test": "npx mocha --debug --require ts-node/register !(node_modules)/**/*.{test,spec}.{ts,tsx}"
+  },
+  "version": "1.0.25"
+}

@@ -1,0 +1,114 @@
+{
+  "_args": [
+    [
+      "unset-value@2.0.0",
+      "/storage/emulated/0/bot"
+    ]
+  ],
+  "_from": "unset-value@2.0.0",
+  "_id": "unset-value@2.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-hhaWKXRLy35kYyMpl4FkmSfHGh5PLSE9QqE3jxqDBxhHiIm2+sZkisg69/IL6MIkTcMZ8mCR1PgOIZRuWlvhZg==",
+  "_location": "/unset-value",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "unset-value@2.0.0",
+    "name": "unset-value",
+    "escapedName": "unset-value",
+    "rawSpec": "2.0.0",
+    "saveSpec": null,
+    "fetchSpec": "2.0.0"
+  },
+  "_requiredBy": [
+    "/@bluelovers/axios-extend"
+  ],
+  "_resolved": "https://registry.npmjs.org/unset-value/-/unset-value-2.0.0.tgz",
+  "_spec": "2.0.0",
+  "_where": "/storage/emulated/0/bot",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/unset-value/issues"
+  },
+  "contributors": [
+    {
+      "email": "wtgtybhertgeghgtwtg@gmail.com",
+      "url": "https://github.com/wtgtybhertgeghgtwtg"
+    },
+    {
+      "name": "Jon Schlinkert",
+      "email": "jon.schlinkert@sellside.com",
+      "url": "http://twitter.com/jonschlinkert"
+    }
+  ],
+  "dependencies": {
+    "has-value": "^2.0.2",
+    "isobject": "^4.0.0"
+  },
+  "description": "Delete nested properties from an object using dot notation.",
+  "devDependencies": {
+    "gulp-format-md": "^0.1.11",
+    "mocha": "*",
+    "should": "*"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "homepage": "https://github.com/jonschlinkert/unset-value",
+  "keywords": [
+    "del",
+    "delete",
+    "key",
+    "object",
+    "omit",
+    "prop",
+    "property",
+    "remove",
+    "unset",
+    "value"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "unset-value",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonschlinkert/unset-value.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "types": "index.d.ts",
+  "verb": {
+    "related": {
+      "list": [
+        "get-value",
+        "get-values",
+        "omit-value",
+        "put-value",
+        "set-value",
+        "union-value",
+        "upsert-value"
+      ]
+    },
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  },
+  "version": "2.0.0"
+}

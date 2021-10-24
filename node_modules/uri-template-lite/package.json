@@ -1,0 +1,63 @@
+{
+  "_args": [
+    [
+      "uri-template-lite@20.5.0",
+      "/storage/emulated/0/bot"
+    ]
+  ],
+  "_from": "uri-template-lite@20.5.0",
+  "_id": "uri-template-lite@20.5.0",
+  "_inBundle": false,
+  "_integrity": "sha512-RL6Pnz0DO4XH9WZhZTX6u0SP6afNM9z+u7lXYHO+RkVGzpNcgKc1Y2tcAX/KVIEi2ctfzf+iLcofkwKoYiGH4Q==",
+  "_location": "/uri-template-lite",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "uri-template-lite@20.5.0",
+    "name": "uri-template-lite",
+    "escapedName": "uri-template-lite",
+    "rawSpec": "20.5.0",
+    "saveSpec": null,
+    "fetchSpec": "20.5.0"
+  },
+  "_requiredBy": [
+    "/router-uri-convert"
+  ],
+  "_resolved": "https://registry.npmjs.org/uri-template-lite/-/uri-template-lite-20.5.0.tgz",
+  "_spec": "20.5.0",
+  "_where": "/storage/emulated/0/bot",
+  "author": {
+    "name": "Lauri Rooden",
+    "email": "lauri@rooden.ee"
+  },
+  "bugs": {
+    "url": "https://github.com/litejs/uri-template-lite/issues"
+  },
+  "description": "URI Template [RFC 6570] expansion and extraction",
+  "files": [
+    "index.js"
+  ],
+  "homepage": "https://github.com/litejs/uri-template-lite#readme",
+  "keywords": [
+    "uri",
+    "url",
+    "template",
+    "uri-template",
+    "rfc6570",
+    "litejs"
+  ],
+  "license": "MIT",
+  "litejs": {
+    "build": [
+      "-r index.js"
+    ]
+  },
+  "main": "index.js",
+  "name": "uri-template-lite",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/litejs/uri-template-lite.git"
+  },
+  "version": "20.5.0"
+}

@@ -1,0 +1,63 @@
+{
+  "_args": [
+    [
+      "lazy-cookies@1.0.37",
+      "/storage/emulated/0/bot"
+    ]
+  ],
+  "_from": "lazy-cookies@1.0.37",
+  "_id": "lazy-cookies@1.0.37",
+  "_inBundle": false,
+  "_integrity": "sha512-D9xkNqZ1Di7OcPKSrh0Za3M8QJl1+Viy5ufrOL/g2I0bsdGmMGCABqSQLOe7Qsz/sx3EaIG0hD+XWwnkm5qy9g==",
+  "_location": "/lazy-cookies",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "lazy-cookies@1.0.37",
+    "name": "lazy-cookies",
+    "escapedName": "lazy-cookies",
+    "rawSpec": "1.0.37",
+    "saveSpec": null,
+    "fetchSpec": "1.0.37"
+  },
+  "_requiredBy": [
+    "/restful-decorator"
+  ],
+  "_resolved": "https://registry.npmjs.org/lazy-cookies/-/lazy-cookies-1.0.37.tgz",
+  "_spec": "1.0.37",
+  "_where": "/storage/emulated/0/bot",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/bluelovers/ws-rest/issues"
+  },
+  "dependencies": {
+    "@types/moment": "*",
+    "@types/tough-cookie": "*",
+    "crlf-normalize": "^1.0.6",
+    "ts-type": "^1.2.39",
+    "tslib": "^2.3.0"
+  },
+  "description": "",
+  "gitHead": "f50e966dbb659a5144047950d6d4006ea5b34943",
+  "homepage": "https://github.com/bluelovers/ws-rest#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "lazy-cookies",
+  "peerDependencies": {
+    "moment": "*",
+    "tough-cookie": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluelovers/ws-rest.git"
+  },
+  "scripts": {
+    "coverage": "npx nyc npm run test",
+    "lint": "npx eslint **/*.ts",
+    "ncu": "npx yarn-tool ncu -u",
+    "sort-package-json": "npx yarn-tool sort",
+    "test": "echo \"Error: no test specified\""
+  },
+  "version": "1.0.37"
+}
